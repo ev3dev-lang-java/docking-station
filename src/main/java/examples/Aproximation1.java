@@ -23,11 +23,12 @@ public @Slf4j class Aproximation1 {
 
     public static void main(String[] args){
 
-        //To Stop the motor in case of pkill java for example
+        //To Stop the motor (Example: in case of pkill java for example)
         Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
             public void run() {
                 pilot.stop();
-                System.out.println(Battery.getInstance().getVoltage());
+                log.info("{}", Battery.getInstance().getVoltage());
+                log.info("Catakroker!!!");
             }
         }));
 
@@ -62,7 +63,6 @@ public @Slf4j class Aproximation1 {
                 pilot.travel(distance/2);
             }
 
-            //break;
             Delay.msDelay(HALF_SECOND);
         }
 
