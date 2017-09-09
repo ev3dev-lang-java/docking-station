@@ -40,20 +40,20 @@ which it could be used to read the green led enabled which indicates that the ba
 #### 2.2 Using a HS110 Smart Plug 
 
 In the market exist Smart Plugs which are possible to operate using a REST API.
-One product used is [TP HS 110](http://www.tp-link.com/us/products/details/cat-5516_HS110.html)
+One product used in this project is [TP HS 110](http://www.tp-link.com/us/products/details/cat-5516_HS110.html):
 
 ![](./docs/images/HS110.jpg)
 
 Using this kind of devices, is possible to know if the EV3 Brick are charging or not:
 
-**Output when EV3 is not connected:**
+**Output when an EV3 Brick is not connected:**
 
 ```
 Parsing: {"emeter":{"get_realtime":{"current":0.012227,"voltage":242.435362,"power":0,"total":0.006000,"err_code":0}}}
 Power: 0.0W, Total Consumption: 0.006kWh Current: 0.012227A Voltage: 242.435362
 ```
 
-**Output when EV3 is connected:**
+**Output when an EV3 Brick is connected:**
 
 ```
 Parsing: {"emeter":{"get_realtime":{"current":0.038435,"voltage":242.617563,"power":4.639256,"total":0.006000,"err_code":0}}}
@@ -79,6 +79,7 @@ which is able to process signals from a [IR Beacon (45508)](https://shop.lego.co
 
 ## Links of reference
 
+- http://www.plastibots.com/index.php/2010/11/13/pulito-featuring-dflex/
 - [https://www.doc.ic.ac.uk/~nd/surprise_97/journal/vol4/jmd/](https://www.doc.ic.ac.uk/~nd/surprise_97/journal/vol4/jmd/)
 - [http://philohome.com/pf/LEGO_Power_Functions_RC_v120.pdf](http://philohome.com/pf/LEGO_Power_Functions_RC_v120.pdf)
 - https://www.youtube.com/watch?v=Ch4NUazpjJ8
