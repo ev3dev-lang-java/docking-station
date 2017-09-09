@@ -21,7 +21,7 @@ designed to be operated by humans.
 
 Lego Mindstorms has a [Battery Charger (45517)](https://shop.lego.com/en-US/Transformer-10V-DC-45517) 
 which allows you to recharge the [Rechargeable battery (45501)](https://shop.lego.com/en-US/EV3-Rechargeable-DC-Battery-45501). 
-Doing some changes, it is possible to create a custom connector like this one:
+If you do some changes in the cable of the charger, it is possible to create a custom connector like this one:
 
 ![](./docs/images/connector.jpg)
 
