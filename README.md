@@ -442,6 +442,12 @@ ev3dev#33|2017-09-09 17:47:33 [Thread-1] INFO  examples.Demo1 - 8.253
 ev3dev#33|2017-09-09 17:47:33 [Thread-1] INFO  examples.Demo1 - Catakroker!!!
 ```
 
+## TODO
+
+- Improve the FSM Design
+- Add Custom IR Beacon in the installation.
+- Build a better physical docking station, increasing the available angles to connect
+
 ## Links of reference
 
 - http://www.plastibots.com/index.php/2010/11/13/pulito-featuring-dflex/
