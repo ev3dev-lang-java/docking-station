@@ -63,6 +63,13 @@ public @Slf4j class Aproximation1 {
                 pilot.travel(distance/2);
             }
 
+            if(heading == 0){
+                if(distance <=7){
+                    pilot.stop();
+                    break;
+                }
+            }
+
             Delay.msDelay(HALF_SECOND);
         }
 
