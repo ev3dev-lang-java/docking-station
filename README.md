@@ -78,7 +78,7 @@ which is able to process signals from a [IR Beacon (45508)](https://shop.lego.co
 The LEGO IR Beacon is nice but after a period of time, the Beacon shutdown so,
 it is necessary to find custom solution which never turn off.
 
-**Note:** `Shane Gingell` from `Out of the BOTS` are working in an Arduino solution
+**Note:** `Shane Gingell` from `Out of the BOTS` are working in an Arduino solution.
 
 ## Links of reference
 
