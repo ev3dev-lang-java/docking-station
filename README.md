@@ -25,17 +25,53 @@ If you do some changes in the cable of the charger, it is possible to create a c
 
 ![](./docs/images/connector.jpg)
 
-### 2. Where is the Docking Station?
+### 2. Is charging the Brick?
+
+#### 2.1 Using a EV3 Light Sensor
+
+The EV3 Rechargeable battery has 2 leds (green and red). 
+Using lego Mindstorms has a [Light Sensor (45506)](https://shop.lego.com/en-US/EV3-Color-Sensor-45506) 
+which it could be used to read the green led enabled which indicates that the battery is charging. 
+
+![](./docs/images/lightSensorReadingEV3Battery.jpg)
+
+**Limitations:** If you connect the sensor closed to the green led, you loose a Sensor Port.
+
+#### 2.2 Using a HS110 Smart Plug 
+
+In the market exist Smart Plugs which are possible to operate using a REST API.
+One product used is [TP HS 110](http://www.tp-link.com/us/products/details/cat-5516_HS110.html)
+
+![](./docs/images/HS110.jpg)
+
+Using this kind of devices, is possible to know if the EV3 Brick are charging or not:
+
+**Output when EV3 is not connected:**
+
+```
+Parsing: {"emeter":{"get_realtime":{"current":0.012227,"voltage":242.435362,"power":0,"total":0.006000,"err_code":0}}}
+Power: 0.0W, Total Consumption: 0.006kWh Current: 0.012227A Voltage: 242.435362
+```
+
+**Output when EV3 is connected:**
+
+```
+Parsing: {"emeter":{"get_realtime":{"current":0.038435,"voltage":242.617563,"power":4.639256,"total":0.006000,"err_code":0}}}
+Power: 4.639256W, Total Consumption: 0.006kWh Current: 0.038435A Voltage: 242.617563
+```
+
+### 3. Where is the Docking Station?
 
 Once, the robot has a connector to use in an autonomous way, 
 it is necessary to help the robot to locate the docking station. 
-This kind of problem could be sorted in the Local Navigation category.
+This kind of problem could be sorted in the **Local Navigation** category.
 
 > **Local navigation:** The ability to determine one's position relative to objects (stationary or moving) in the environment, and not collide with them as one moves.
 
-### 2.1 Using a Custom LEGO EV3 IR Beacon
+### 3.1 Using a Custom LEGO EV3 IR Beacon
 
-Lego Mindstorms EV3 has a IR Sensor which is able to process Signals from a LEGO IR Beacon:
+Lego Mindstorms EV3 has a [IR Sensor (45509)](https://shop.lego.com/en-US/EV3-Infrared-Sensor-45509) 
+which is able to process signals from a [IR Beacon (45508)](https://shop.lego.com/en-US/EV3-Infrared-Beacon-45508):
 
 ![](./docs/images/irBeacon.jpg)
 
