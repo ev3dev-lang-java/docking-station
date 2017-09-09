@@ -15,7 +15,7 @@ designed to be operated by humans.
 
 > Why not help your robot to recharge itself?
 
-## The solution
+## A solution
 
 ### 1. Custom connector
 
@@ -27,7 +27,7 @@ If you do some changes in the cable of the charger, it is possible to create a c
 
 ### 2. Is charging the Brick?
 
-#### 2.1 Using a EV3 Light Sensor
+#### 2.1 Using an EV3 Light Sensor
 
 The EV3 Rechargeable battery has 2 leds (green and red). 
 Using lego Mindstorms has a [Light Sensor (45506)](https://shop.lego.com/en-US/EV3-Color-Sensor-45506) 
