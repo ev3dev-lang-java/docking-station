@@ -39,7 +39,7 @@ which it could be used to read the green led enabled which indicates that the ba
 
 #### 2.2 Using a HS110 Smart Plug 
 
-In the market exist Smart Plugs which are possible to operate using a REST API.
+In the market, exist Smart Plugs which are possible to operate using a REST API.
 One product used in this project is [TP HS 110](http://www.tp-link.com/us/products/details/cat-5516_HS110.html):
 
 ![](./docs/images/HS110.jpg)
@@ -68,14 +68,17 @@ This kind of problem could be sorted in the **Local Navigation** category.
 
 > **Local navigation:** The ability to determine one's position relative to objects (stationary or moving) in the environment, and not collide with them as one moves.
 
-### 3.1 Using a Custom LEGO EV3 IR Beacon
+### 3.1 Using a custom Arduino IR Beacon
 
 Lego Mindstorms EV3 has a [IR Sensor (45509)](https://shop.lego.com/en-US/EV3-Infrared-Sensor-45509) 
 which is able to process signals from a [IR Beacon (45508)](https://shop.lego.com/en-US/EV3-Infrared-Beacon-45508):
 
-![](./docs/images/irBeacon.jpg)
+![](./docs/images/arduinoIRBeacon.png)
 
+The LEGO IR Beacon is nice but after a period of time, the Beacon shutdown so,
+it is necessary to find custom solution which never turn off.
 
+**Note:** `Shane Gingell` from `Out of the BOTS` are working in an Arduino solution
 
 ## Links of reference
 
