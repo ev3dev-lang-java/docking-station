@@ -22,7 +22,7 @@ dependencies {
     compile("com.github.ev3dev-lang-java:ev3dev-lang-java:0.7.0")
     compile("com.github.ev3dev-lang-java:lejos-navigation:0.2.0")
 
-    compile("com.github.jabrena:hs110:0.1.1-SNAPSHOT")
+    compile("com.github.jabrena:hs110:0.1.2-SNAPSHOT")
 
     testCompile("junit:junit:4.12")
     testCompile("org.hamcrest:hamcrest-all:1.3")

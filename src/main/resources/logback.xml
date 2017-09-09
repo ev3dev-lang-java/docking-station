@@ -9,9 +9,11 @@
     </appender>
 
     <logger name="ch.qos.logback.core" level="OFF" />
+
     <logger name="ev3dev.sensors.slamtec.RPLidarA1Driver" level="OFF" />
     <logger name="ev3dev.utils.Sysfs" level="OFF" />
     <logger name="ev3dev.hardware" level="OFF" />
+    <logger name="ev3dev.actuators.lego.motors" level="OFF"/>
     <logger name="ev3dev" level="TRACE" />
 
     <root level="DEBUG">

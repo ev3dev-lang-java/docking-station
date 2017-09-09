@@ -28,7 +28,7 @@ public class PilotConfig {
 		//pilot.setAngularAcceleration();
 		pilot.setAngularSpeed(100);
 		//pilot.setLinearAcceleration();
-		pilot.setLinearSpeed(100);
+		pilot.setLinearSpeed(80);
 	}
 
 	public DifferentialPilot getPilot(){

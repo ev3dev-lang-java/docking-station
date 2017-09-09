@@ -27,8 +27,8 @@ public @Slf4j class Aproximation1 {
         Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
             public void run() {
                 pilot.stop();
-                log.info("{}", Battery.getInstance().getVoltage());
-                log.info("Catakroker!!!");
+                LOGGER.info("{}", Battery.getInstance().getVoltage());
+                LOGGER.info("Catakroker!!!");
             }
         }));
 
@@ -47,9 +47,9 @@ public @Slf4j class Aproximation1 {
             heading = sample[0];
             distance = sample[1];
 
-            log.info("Iteration: {}", i);
-            log.info("Beacon Channel 1: Heading: {}, Distance: {}", heading, distance);
-            log.info("Voltage: {}", Battery.getInstance().getVoltage());
+            LOGGER.info("Iteration: {}", i);
+            LOGGER.info("Beacon Channel 1: Heading: {}, Distance: {}", heading, distance);
+            LOGGER.info("Voltage: {}", Battery.getInstance().getVoltage());
 
             if(heading != 0){
                 if(heading > 0){
