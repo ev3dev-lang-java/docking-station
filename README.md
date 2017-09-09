@@ -9,7 +9,8 @@
 
 [Lego Mindstorms](https://www.lego.com/en-us/mindstorms/) is an educational line of products to learn Robotics.
 In the Third generation of the product, exist a [Lego Mindstorms EV3 educational Set](https://education.lego.com/en-us/products/lego-mindstorms-education-ev3-core-set-/5003400)
-which includes a Rechargeable battery and an electrical connector but the connector has been 
+which includes a [Rechargeable battery (45501)](https://shop.lego.com/en-US/EV3-Rechargeable-DC-Battery-45501) and 
+a [Battery Charger (45517)](https://shop.lego.com/en-US/Transformer-10V-DC-45517) but the charger, has been 
 designed to be operated by humans.
 
 > Why not help your robot to recharge itself?
