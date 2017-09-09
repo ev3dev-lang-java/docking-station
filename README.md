@@ -79,6 +79,18 @@ it is necessary to find custom solution which never turn off.
 
 **Note:** `Shane Gingell` from `Out of the BOTS` are working in an Arduino solution.
 
+### 3.2 Add a SLAM Solution
+
+Using a SLAM Solution, it could be possible to know where is the robot with accuracy.
+
+#### ROS Cartographer SLAM
+
+![](./docs/images/ROS_CARTOGRAPHER_map.png)
+
+#### LeJOS SLAM System
+
+![](./docs/images/LEJOS_SLAM_map.jpg)
+
 ## Development
 
 ### Example:
@@ -124,7 +136,7 @@ public @Slf4j class Demo1 {
     private static final String HS110_CONFIG_IP_FIELD = "ip";
     private static HS110Client hs110;
 
-    //MOTORS Used to Uncharge quickly
+    //MOTORS Used to Uncharge quickly (simulation real activity)
     private static RegulatedMotor extraMotor1 = Motor.B;
     private static RegulatedMotor extraMotor2 = Motor.C;
 
@@ -447,6 +459,7 @@ ev3dev#33|2017-09-09 17:47:33 [Thread-1] INFO  examples.Demo1 - Catakroker!!!
 - Improve the FSM Design
 - Add Custom IR Beacon in the installation.
 - Build a better physical docking station, increasing the available angles to connect
+- Add SLAM solution to know where is the robot
 
 ## Links of reference
 
@@ -454,4 +467,7 @@ ev3dev#33|2017-09-09 17:47:33 [Thread-1] INFO  examples.Demo1 - Catakroker!!!
 - [https://www.doc.ic.ac.uk/~nd/surprise_97/journal/vol4/jmd/](https://www.doc.ic.ac.uk/~nd/surprise_97/journal/vol4/jmd/)
 - [http://philohome.com/pf/LEGO_Power_Functions_RC_v120.pdf](http://philohome.com/pf/LEGO_Power_Functions_RC_v120.pdf)
 - https://www.youtube.com/watch?v=Ch4NUazpjJ8
+- https://github.com/googlecartographer/cartographer_ros
+- https://github.com/gloomyandy/surveyor
+- https://lejosnews.wordpress.com/2017/07/15/slam/
 

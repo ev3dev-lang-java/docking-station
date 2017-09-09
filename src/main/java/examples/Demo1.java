@@ -36,7 +36,7 @@ public @Slf4j class Demo1 {
     private static final String HS110_CONFIG_IP_FIELD = "ip";
     private static HS110Client hs110;
 
-    //MOTORS Used to Uncharge quickly
+    //MOTORS Used to Uncharge quickly (simulation real activity)
     private static RegulatedMotor extraMotor1 = Motor.B;
     private static RegulatedMotor extraMotor2 = Motor.C;
 
