@@ -1,4 +1,4 @@
-//Gradle file library ev3dev-lang-java
+//Gradle file library ev3dev-lang-java // Docking station
 //Author: Juan Antonio Breña Moral
 
 version = '0.1.0-SNAPSHOT'
@@ -19,8 +19,10 @@ dependencies {
     compile("org.slf4j:slf4j-api:1.7.25")
     compile("ch.qos.logback:logback-classic:1.2.3")
 
-    compile("com.github.ev3dev-lang-java:ev3dev-lang-java:0.7.1-SNAPSHOT")
-    compile("com.github.ev3dev-lang-java:lejos-navigation:0.2.1-SNAPSHOT")
+    compile("com.github.ev3dev-lang-java:ev3dev-lang-java:0.7.0")
+    compile("com.github.ev3dev-lang-java:lejos-navigation:0.2.0")
+
+    compile("com.github.jabrena:hs110:0.1.1-SNAPSHOT")
 
     testCompile("junit:junit:4.12")
     testCompile("org.hamcrest:hamcrest-all:1.3")
